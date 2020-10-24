@@ -32,11 +32,6 @@ public class ProcessConfiguration extends WebSecurityConfigurerAdapter {
         auth.userDetailsService(myUserDetailsService());
     }
 
-    /**
-     * TODO temporary method for user security. To be replaced when user service is implemented
-     *
-     * @return
-     */
     @Bean
     public UserDetailsService myUserDetailsService() {
         InMemoryUserDetailsManager inMemoryUserDetailsManager = new InMemoryUserDetailsManager();
