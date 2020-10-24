@@ -1,5 +1,8 @@
 # activiti-springboot-sample
 
+## Process Plow
+![Process Flow Diagram](user-registration.png)
+
 ## Env Setup
 
 1.  git clone https://github.com/shajiadr/activiti-springboot-sample.git
