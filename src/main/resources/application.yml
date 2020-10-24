@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: activiti-springboot-service
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  # activiti default configuration
+  activiti:
+    database-schema-update: true
+    db-history-used: true
+    check-process-definitions: true
+    process-definition-location-prefix: classpath:/processes/
+    # process-definition-location-suffixes:
+    # - **.bpmn
+    # - **.bpmn20.xml
+    history-level: audit
+
+server:
+  port: 9080
+
+
+
